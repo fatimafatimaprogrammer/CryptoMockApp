@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# 💰 CryptoMockApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple **React Native + Expo** mock cryptocurrency trading app where users can view a list of coins, check their prices, and simulate buy/sell trades using a virtual USD balance.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 📊 View mock cryptocurrency market data  
+- 💵 Buy and sell coins using a simulated wallet balance  
+- 📈 Track your holdings in real time  
+- 💡 Clean and responsive UI  
+- ⚛️ Built with React Native & Expo  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🏗️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native (Expo)**
+- **React Navigation**
+- **JavaScript (ES6+)**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📁 Folder Structure
 
-## Get a fresh project
+CryptoMockApp/
+├── components/
+│ └── CryptoListItem.js
+├── data/
+│ └── sampleData.js
+├── screens/
+│ ├── MarketsScreen.js
+│ └── TradeScreen.js
+├── App.js
+├── package.json
+└── README.md
 
-When you're ready, run:
 
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
 ```bash
-npm run reset-project
+git clone https://github.com/fatimafatimaprogrammer/CryptoMockApp.git
+cd CryptoMockApp
 ```
+### 2️⃣ Install dependencies
+npm install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 3️⃣ Start the development server
+npx expo start
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+Now you can open the app in:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📱 Android Emulator → press a
 
-## Join the community
+🍎 iOS Simulator (Mac) → press i
 
-Join our community of developers creating universal apps.
+🌐 Web → press w
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📲 Expo Go app → scan the QR code in the terminal
